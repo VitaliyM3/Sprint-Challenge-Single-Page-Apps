@@ -5,6 +5,7 @@ import CharacterCard from "./CharacterCard";
 export default function CharacterList() {
   // TODO: Add useState to track data from useEffect
 const [character, setCharacter] = useState([]);
+
   useEffect(() => {
     // TODO: Add API Request here - must run in `useEffect`
     //  Important: verify the 2nd `useEffect` parameter: the dependancies array!
@@ -37,3 +38,4 @@ const [character, setCharacter] = useState([]);
     </section>
   );
 }
+
